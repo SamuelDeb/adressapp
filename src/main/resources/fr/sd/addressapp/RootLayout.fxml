@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@themeSombre.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.sd.addressapp.view.MenuController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Fichier">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#handleNew" text="Nouveau" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleOpen" text="Ouvrir" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleSave" text="Sauvgarder" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleSaveAs" text="Enregistrer sous" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleExit" text="Quitter" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>
